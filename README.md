@@ -35,10 +35,15 @@ With smart street light system, we can greatly reduce the energy cost and moreov
 ### Components Required:
 
 •	One 380Ω resistor
+
 •	Light depending resistor LDR
+
 •	Arduino Uno
+
 •	One LED
+
 •	Jumper Wires
+
 •	Arduino Uno
 
 
@@ -52,12 +57,16 @@ Fig 1. Circuit connections on breadboard
 
 Fig 2. Connections on the Arduino Uno board
 
-Hardware Connections:
+### Hardware Connections:
+
 Connect the LDR to the 5V of the Arduino.
 Connect one terminal of LDR to the A0 pin of Arduino for the analog input of intensity of the light. 
 Connect the terminal of both LDR and LED with the ground of the Arduino.
 Connect the positive terminal of the LED to the digital pin number 7 of the Arduino. You can use any digital pin according to the programming.
-Program :
+
+
+### Program :
+
 int ldrPin = A0;
 int led = 7;
 int threshold = 30;
@@ -114,11 +123,17 @@ Overall, the Smart Street Light Sensor system using Arduino and IR sensors repre
 ### Components Required:
 
 •	Two IR sensors
-•	Two 220Ω resistors
+
+•	Two 220 Ω resistors
+
 •	IR sensor module
+
 •	Light depending resistor LDR
-•	One 1 KΩ resistor
+
+•	One 5 KΩ resistor
+
 •	Arduino Uno
+
 •	Two LEDs
 
 ### Information about Components:
